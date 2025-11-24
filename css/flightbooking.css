@@ -1,0 +1,91 @@
+*{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+.navbar{
+    background-color:#f8751e;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar .nav-link{
+    color:#fdfffd;
+    
+}
+.navbar .nav-item{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body {
+            background: #f2f4f7;
+            
+        }
+
+        .flight-container {
+            max-width: 900px;
+            margin: auto;
+            margin-top: 40px;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px #00000020;
+        }
+
+        .flight-title {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #0660e8;
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            font-weight: bold;
+        }
+
+        .btn-search {
+            width: 100%;
+            background: #0DCAF0;
+            color: black ;
+            padding: 12px;
+            font-size: 1.1rem;
+            border-radius: 8px;
+            transition: 0.3s;
+            border: none;
+        }
+
+        .btn-search:hover {
+            background: #3b20a7;
+            color: white;
+        }
+
+        .flight-card {
+            border-radius: 10px;
+            padding: 18px;
+            background: #ffffff;
+            margin-top: 25px;
+            box-shadow: 0 4px 15px #00000015;
+        }
+
+        .price-tag {
+            font-size: 1.6rem;
+            color: #ff6600;
+            font-weight: bold;
+        }
+
+
+        
+#footer{
+    background-color: #18134e;
+    color: white;
+}
+#footer h4{
+    font-weight:bold ;
+}
+.p i{
+    padding-right: 20px;
+}
+.p a{
+    text-decoration: none;
+    color: white;
+}

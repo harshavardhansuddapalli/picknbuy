@@ -1,0 +1,110 @@
+*{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+.navbar{
+    background-color:#f8751e;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar .nav-link{
+    color:#fdfffd;
+    
+}
+.navbar .nav-item{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* Contact Container */
+.contact-section {
+    padding: 50px 20px;
+}
+
+.contact-box {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px #00000015;
+}
+
+/* Page Title */
+.contact-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff6a00;
+    margin-bottom: 20px;
+}
+
+/* Left Information Panel */
+.info-panel {
+    padding: 30px;
+    border-radius: 12px;
+    background: #0660e8;
+    color: white;
+}
+
+.info-panel h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.info-panel p {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+.info-panel i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+/* Contact Form */
+.contact-form label {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border-radius: 6px;
+}
+
+/* Send Button */
+.send-btn {
+    background-color: #0DCAF0;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 6px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.send-btn:hover {
+    background-color: #3b20a7;
+    color: white;
+}
+
+
+#footer{
+    background-color: #18134e;
+    color: white;
+}
+#footer h4{
+    font-weight:bold ;
+}
+.p i{
+    padding-right: 20px;
+}
+.p a{
+    text-decoration: none;
+    color: white;
+}
+/* Responsive: Center alignment on small screens */
+@media (max-width: 768px) {
+    .info-panel {
+        margin-bottom: 20px;
+    }
+}

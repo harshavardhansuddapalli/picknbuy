@@ -1,0 +1,77 @@
+*{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+.navbar{
+    background-color:#f8751e;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar .nav-link{
+    color:#fdfffd;
+    
+}
+.navbar .nav-item{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.cart-section {
+    margin-top: 120px;
+}
+
+.cart-card {
+    background: #ffffff;
+    padding: 40px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px #00000020;
+}
+
+.cart-logo {
+    width: 90px;
+    background-color: white;
+}
+
+.login-btn {
+    background-color: #0DCAF0;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.login-btn:hover {
+    background-color: #0660e8;
+    color: white;
+}
+
+.back-home-btn {
+    background-color: #ff6a00;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.back-home-btn:hover {
+    background-color: #e25800;
+    color: white;
+}
+
+
+#footer{
+    background-color: #18134e;
+    color: white;
+}
+#footer h4{
+    font-weight:bold ;
+}
+.p i{
+    padding-right: 20px;
+}
+.p a{
+    text-decoration: none;
+    color: white;
+}
